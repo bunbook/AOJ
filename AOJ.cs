@@ -15,6 +15,7 @@ namespace AOJ
             
             string outputStr = "";
 
+            // exStdIn.Close();
             Console.Write(outputStr);
             Console.ReadLine();
         }
