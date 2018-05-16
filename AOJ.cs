@@ -13,10 +13,9 @@ namespace AOJ
             //var exStdIn = new System.IO.StreamReader("stdin.txt");
             //Console.SetIn(exStdIn);
             
-            string outputStr = "";
+            string output = "";
 
-            // exStdIn.Close();
-            Console.Write(outputStr);
+            Console.Write(output);
             Console.ReadLine();
         }
         */

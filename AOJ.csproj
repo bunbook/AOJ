@@ -35,8 +35,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AOJ118.cs" />
     <Compile Include="AOJ.cs" />
-    <Compile Include="AOJ117e.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
