@@ -5,6 +5,8 @@ namespace AOJ
     class AOJ118
     {
         const char NONE = '_';
+        readonly static int[] dx = { 0, 0, 1, -1 };
+        readonly static int[] dy = { 1, -1, 0, 0 };
 
         static void Main(string[] args)
         {
@@ -58,9 +60,6 @@ namespace AOJ
         static void RewriteMap(char[,] map, int posX, int posY, char targetData)
         {
             map[posY, posX] = NONE;
-
-            int[] dx = { 0, 0, 1, -1};
-            int[] dy = { 1, -1, 0, 0};
 
             for (int d = 0; d < 4; d++)
             {
