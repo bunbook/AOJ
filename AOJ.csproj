@@ -35,7 +35,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AOJ136.cs" />
+    <Compile Include="AOJ156 - コピー.cs" />
+    <Compile Include="AOJ156.cs" />
     <Compile Include="AOJ.cs" />
   </ItemGroup>
   <ItemGroup>
